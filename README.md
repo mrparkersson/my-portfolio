@@ -1,6 +1,8 @@
 Project Name
 
-Portfolio - Skeleton "Work" and "About" Section
+# Portfolio Mobile Version
+
+- designing the "Work" and "About" Section
 
 # Name - Amo Prince Parker
 
@@ -26,6 +28,8 @@ Live Demo
 Live Demo Link
 
 Getting Started
+
+- Using Vs Code or any other code editer, clone the repository and run it using live server or opening the html file in your folder locally
 
 This is an example of how you may give instructions on setting up your project locally. Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.
 
@@ -63,7 +67,8 @@ Give a ⭐️ if you like this project!
 
 Acknowledgments
 
-Hat tip to anyone whose code was used
+Microverse
+
 Inspiration
 etc
 📝 License

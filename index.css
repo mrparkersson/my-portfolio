@@ -77,7 +77,7 @@ li {
 
 a {
   text-decoration: none;
-  font-family: "Inter", sans-serif;
+  font-family: "Inter", serif;
   font-size: 17px;
   color: white;
 }
@@ -99,10 +99,17 @@ a {
   color: white;
   font-style: normal;
   font-size: 32px;
+  line-height: 44px;
+  font-weight: 400;
 }
 
 .selection {
   color: white;
+  line-height: 24px;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-family: "Inter", serif;
 }
 
 .probtn {
@@ -112,13 +119,15 @@ a {
   padding: 10px 12px;
   margin-right: 12px;
   cursor: pointer;
+  font-size: 15px;
+  line-height: 20px;
 }
 
 .groupbtn {
   display: grid;
   grid-template-columns: 50px 90px 80px;
   padding-left: 1px;
-  font-family: "Inter", sans-serif;
+  font-family: "Inter", serif;
 }
 
 .lgbtn {
@@ -126,10 +135,14 @@ a {
   padding: 12px;
   background-color: #ff6b00;
   border-style: none;
-  font-family: "Inter", sans-serif;
+  font-family: "Inter", serif;
   margin: 0;
   align-items: stretch;
   cursor: pointer;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 24px;
+  color: #ffffff;
 }
 
 .aboutme {
@@ -148,11 +161,13 @@ a {
 }
 
 .hello {
-  color: white;
+  color: #f4f5f7;
   font-weight: 400;
   font-style: normal;
   font-size: 16px;
   margin: 20px 0;
+  font-family: "Inter", sans-serif;
+  line-height: 24px;
 }
 
 .info {
@@ -170,6 +185,11 @@ a {
   padding: 12px;
   border: none;
   cursor: pointer;
+  align-items: center;
+  font-size: 17px;
+  line-height: 24px;
+  font-weight: 700;
+  color: #ffffff;
 }
 
 .aboutmesec {
