@@ -7,7 +7,8 @@ Hello Microverse
 This is my first project in Microverse
 Using HTML/CSS
 
-Using the h1 tag and in it "Hello Microverse"
+Designing the Work and About Portfolio Skeleton
+Implementing all tags
 
 Giving a color of my choice using the css
 

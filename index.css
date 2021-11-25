@@ -1,0 +1,161 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  height: 0;
+}
+
+header {
+  padding: 5rem;
+  background-color: #e5e5e5;
+  height: 200rem;
+  width: 200rem;
+  display: grid;
+  grid-template-columns: 600px 600px;
+}
+
+.d-grid {
+  display: grid;
+  grid-template-columns: auto;
+  grid-gap: 1rem;
+}
+
+.margin {
+  margin: 10px;
+}
+
+.recent {
+  font-size: 30px;
+  font-family: "Crete Round", serif;
+}
+
+.container {
+  background-color: white;
+  width: 375px;
+  height: 78rem;
+  padding: 1rem;
+}
+
+.line {
+  width: 320px;
+  height: 0.3px;
+  border-bottom: 3px solid #212121;
+  padding-top: 2rem;
+}
+.multi {
+  font-weight: 400;
+  font-family: "Crete Round", serif;
+}
+.acrobat {
+  width: 327px;
+  height: 237px;
+}
+
+.daily {
+  text-align: left;
+}
+
+.btn-grid {
+  padding-top: 70px;
+}
+.btn {
+  width: 95;
+  height: 40px;
+  margin: 3px;
+  background-color: white;
+  border: 1px solid rgb(113, 109, 109);
+}
+
+.see-project {
+  background-color: #ff6b00;
+  width: 124px;
+  height: 48px;
+  border-radius: none;
+  border-style: none;
+}
+
+a {
+  text-decoration: none;
+  font-family: "Inter", sans-serif;
+  font-size: 17px;
+  color: white;
+}
+
+.last-part {
+  background-image: url(./images/secondpage/seeproject.svg);
+  object-fit: cover;
+  width: 327px;
+  height: 350px;
+  text-align: left;
+}
+
+.professional {
+  padding-top: 5rem;
+  font-size: 30px;
+  font-family: "Crete Round", serif;
+  color: white;
+  font-style: normal;
+  font-size: 32px;
+}
+
+.selection {
+  padding-top: 6rem;
+  color: white;
+}
+
+.probtn {
+  width: 95;
+  height: 40px;
+  margin: 3px;
+  background-color: transparent;
+  border-style: 1px solid black;
+  border-radius: none;
+}
+
+.groupbtn {
+  padding-top: 5rem;
+  display: grid;
+  grid-template-columns: 50px 90px 80px;
+  padding-left: 1px;
+  font-family: "Inter", sans-serif;
+}
+
+.lgbtn {
+  width: 327px;
+  height: 48px;
+  background-color: #ff6b00;
+  border-style: none;
+  font-family: "Inter", sans-serif;
+  margin: 50px;
+  align-items: stretch;
+}
+
+.aboutme {
+  background-color: #1c1a19;
+  width: 375px;
+  height: 78rem;
+  padding: 1rem;
+}
+
+.about {
+  width: 327px;
+  height: 79;
+  color: #ff6b00;
+  font-size: 72px;
+  font-family: "Crete Round", serif;
+}
+
+.resume {
+  font-family: "Inter", sans-serif;
+}
+
+.hello {
+  color: white;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+}
+
+.curlyimg {
+  width: 100px;
+  height: 352px;
+}
