@@ -54,7 +54,7 @@
   background-color: #ff6b00;
   width: 124px;
   height: 48px;
-  border-radius: none;
+  border-radius: 0;
   border-style: none;
 }
 
@@ -78,7 +78,6 @@ a {
 
 .professional {
   margin-bottom: 12px;
-  font-size: 30px;
   font-family: "Crete Round", serif;
   color: white;
   font-style: normal;
@@ -128,6 +127,7 @@ a {
   font-family: "Crete Round", serif;
   margin: 80px 0;
 }
+
 .hello {
   color: white;
   font-weight: 400;
@@ -151,6 +151,7 @@ a {
   padding: 12px;
   border: none;
 }
+
 .aboutmesec {
   padding: 120px 0;
   font-size: 22px;
@@ -161,6 +162,7 @@ a {
 .aboutmesec ul li {
   margin-bottom: 32px;
 }
+
 .aboutmesec ul {
   list-style: none;
   padding: 0;
