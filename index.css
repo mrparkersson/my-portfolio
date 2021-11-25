@@ -9,6 +9,10 @@
   grid-gap: 1rem;
 }
 
+.headericons {
+  width: 100%;
+}
+
 .margin {
   margin: 10px;
 }
@@ -16,6 +20,8 @@
 .recent {
   font-size: 30px;
   font-family: "Crete Round", serif;
+  text-align: center;
+  align-items: center;
 }
 
 .container {
@@ -24,8 +30,7 @@
 }
 
 .line {
-  width: 320px;
-  height: 0.3px;
+  width: 100%;
   border-bottom: 3px solid #212121;
   padding-top: 2rem;
 }
@@ -39,8 +44,15 @@
   width: 100%;
 }
 
+li {
+  list-style: none;
+}
+
 .daily {
   text-align: left;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
 }
 
 .btn {
@@ -48,6 +60,11 @@
   background-color: white;
   border: 1px solid rgb(113, 109, 109);
   padding: 10px;
+}
+
+.btn-grid {
+  padding: 0;
+  display: flex;
 }
 
 .see-project {
@@ -94,6 +111,7 @@ a {
   border: none;
   padding: 10px 12px;
   margin-right: 12px;
+  cursor: pointer;
 }
 
 .groupbtn {
@@ -111,6 +129,7 @@ a {
   font-family: "Inter", sans-serif;
   margin: 0;
   align-items: stretch;
+  cursor: pointer;
 }
 
 .aboutme {
@@ -150,6 +169,7 @@ a {
   background-color: #ff6b00;
   padding: 12px;
   border: none;
+  cursor: pointer;
 }
 
 .aboutmesec {

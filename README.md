@@ -1,17 +1,71 @@
-# Hello-Microverse
+Project Name
 
-Hello Microverse
+Portfolio - Skeleton "Work" and "About" Section
 
-# About
+# Name - Amo Prince Parker
 
-This is my first project in Microverse
-Using HTML/CSS
+One paragraph statement about the project.
+screenshot
 
-Designing the Work and About Portfolio Skeleton
-Implementing all tags
+Continuation of Portfolio skeleton homepage
 
-Giving a color of my choice using the css
+- Implemeting all tags and containers in the HTML file
+- Using CSS to style all the components in the HTML file
 
-Author
+Additional description about the project and its features.
 
-- GitHub - https://github.com/mrparkersson
+- This Page is fully responsive (you can checkout on all devices)
+
+Built With
+
+Major languages - HTML/CSS
+Frameworks
+Technologies used- VS Code
+Live Demo
+
+Live Demo Link
+
+Getting Started
+
+This is an example of how you may give instructions on setting up your project locally. Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.
+
+To get a local copy up and running follow these simple example steps.
+
+Prerequisites
+
+Setup
+
+Install
+
+Usage
+
+Run tests
+
+Deployment
+
+Authors
+
+👤 Author1
+
+GitHub: @mrparkersson
+Twitter: @twitterhandle
+LinkedIn: LinkedIn
+
+🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the issues page.
+
+Show your support
+
+Give a ⭐️ if you like this project!
+
+Acknowledgments
+
+Hat tip to anyone whose code was used
+Inspiration
+etc
+📝 License
+
+This project is MIT licensed.
