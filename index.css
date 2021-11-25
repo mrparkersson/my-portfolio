@@ -3,15 +3,6 @@
   margin: 0;
 }
 
-header {
-  padding: 5rem;
-  background-color: #e5e5e5;
-  height: 200rem;
-  width: 200rem;
-  display: grid;
-  grid-template-columns: 600px 600px;
-}
-
 .d-grid {
   display: grid;
   grid-template-columns: auto;
@@ -29,8 +20,6 @@ header {
 
 .container {
   background-color: white;
-  width: 375px;
-  height: 78rem;
   padding: 1rem;
 }
 
@@ -45,23 +34,18 @@ header {
   font-family: "Crete Round", serif;
 }
 .acrobat {
-  width: 327px;
-  height: 237px;
+  width: 100%;
 }
 
 .daily {
   text-align: left;
 }
 
-.btn-grid {
-  padding-top: 70px;
-}
 .btn {
-  width: 95;
-  height: 40px;
   margin: 3px;
   background-color: white;
   border: 1px solid rgb(113, 109, 109);
+  padding: 10px;
 }
 
 .see-project {
@@ -82,7 +66,6 @@ a {
 .last-part {
   background-image: url(./images/secondpage/seeproject.svg);
   object-fit: cover;
-  width: 327px;
   height: 350px;
   text-align: left;
   display: flex;
@@ -105,12 +88,11 @@ a {
 }
 
 .probtn {
-  width: 95;
-  height: 40px;
-  margin: 3px;
-  background-color: transparent;
-  border-style: 1px solid black;
-  border-radius: none;
+  width: 100%;
+  background-color: rgba(117, 105, 105, 0.493);
+  border: none;
+  padding: 10px 12px;
+  margin-right: 12px;
 }
 
 .groupbtn {
@@ -121,8 +103,8 @@ a {
 }
 
 .lgbtn {
-  width: 327px;
-  height: 48px;
+  width: 100%;
+  padding: 12px;
   background-color: #ff6b00;
   border-style: none;
   font-family: "Inter", sans-serif;
@@ -132,7 +114,6 @@ a {
 
 .aboutme {
   background-color: #1c1a19;
-  width: 375px;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -152,28 +133,6 @@ a {
   font-size: 16px;
   margin: 20px 0;
 }
-
-/* .resume {
-  font-family: "Inter", sans-serif;
-}
-
-.curlyimg {
-  width: 100px;
-  height: 352px;
-}
-
-ul {
-  margin: 100px;
-}
-
-li {
-  color: white;
-  margin: 100px;
-}
-
-h3 {
-  margin: 100px;
-} */
 
 .info {
   padding: 120px 24px;
