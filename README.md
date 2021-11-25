@@ -19,7 +19,7 @@ Additional description about the project and its features.
 Built With
 
 Major languages - HTML/CSS
-Frameworks
+Frameworks N/A
 Technologies used- VS Code
 Live Demo
 
