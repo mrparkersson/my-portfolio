@@ -4,10 +4,6 @@
 
 > Mobile version is a skeleton of Porfolio
 
-### Desktop
-
-Porject's features are added into seperate branch to keep main branch safe.
-
 ## Built With
 
 - HTML
@@ -33,13 +29,9 @@ To get a local copy up and running follow these simple example steps.
 
 👤 **Amo Parker Prince**
 
-- GitHub: [@githubhandle](https://github.com/thecodechaser)
-- Twitter: [@twitterhandle](https://twitter.com/thecodechaser)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/thecodechaser)
-
-👤 **Emmanuel Gbenga**
-
-- GitHub: [@githubhandle](github.com/gbengacode)
+- GitHub: [@githubhandle](https://github.com/mrparkersson)
+- Twitter: [@twitterhandle](https://twitter.com/theparkersson)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/amoparkerprince)
 
 ## 🤝 Contributing
 
