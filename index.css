@@ -1,0 +1,231 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.d-grid {
+  display: grid;
+  grid-template-columns: auto;
+  grid-gap: 1rem;
+}
+
+.headericons {
+  width: 100%;
+}
+
+.margin {
+  margin: 30px;
+}
+
+.recent {
+  font-size: 30px;
+  font-family: "Crete Round", serif;
+  text-align: center;
+  align-items: center;
+}
+
+.container {
+  background-color: white;
+  padding: 1rem;
+}
+
+.line {
+  border-bottom: 3px solid #212121;
+  padding-top: 2rem;
+}
+
+.multi {
+  font-weight: 400;
+  font-family: "Crete Round", serif;
+}
+
+.acrobat {
+  width: 100%;
+}
+
+li {
+  list-style: none;
+}
+
+.daily {
+  text-align: left;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+}
+
+.btn {
+  margin: 3px;
+  background-color: white;
+  border: 1px solid rgb(113, 109, 109);
+  padding: 10px;
+}
+
+.btn-grid {
+  padding: 0;
+  display: flex;
+}
+
+.see-project {
+  background-color: #ff6b00;
+  width: 124px;
+  height: 48px;
+  border-radius: 0;
+  border-style: none;
+  color: white;
+  font-family: "Intter", serif;
+  font-size: 17px;
+  line-height: 24px;
+  align-items: center;
+  font-weight: 700;
+}
+
+a {
+  text-decoration: none;
+  font-family: "Inter", serif;
+  font-size: 17px;
+  color: white;
+}
+
+.last-part {
+  background-image: url(./images/secondpage/seeproject.svg);
+  object-fit: cover;
+  height: 350px;
+  text-align: left;
+  display: flex;
+  padding-top: 84px;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.professional {
+  margin-bottom: 12px;
+  font-family: "Crete Round", serif;
+  color: white;
+  font-style: normal;
+  font-size: 32px;
+  line-height: 44px;
+  font-weight: 400;
+  margin-left: 13px;
+}
+
+.selection {
+  color: white;
+  line-height: 24px;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-family: "Inter", serif;
+  margin-left: 13px;
+  padding-right: 16px;
+}
+
+.probtn {
+  width: 100%;
+  background-color: rgba(117, 105, 105, 0.493);
+  border: none;
+  padding: 10px 12px;
+  cursor: pointer;
+  font-size: 15px;
+  line-height: 20px;
+  color: white;
+}
+
+.groupbtn {
+  display: grid;
+  grid-template-columns: 50px 90px 80px;
+  padding-left: 1px;
+  font-family: "Inter", serif;
+  margin-left: 15px;
+}
+
+.groupbtn li {
+  margin: 12px;
+  width: 90%;
+}
+
+.lgbtn {
+  width: 100%;
+  padding: 12px;
+  background-color: #ff6b00;
+  border-style: none;
+  font-family: "Inter", serif;
+  margin: 0;
+  cursor: pointer;
+  font-size: 17px;
+  line-height: 24px;
+  align-items: center;
+  font-weight: 700;
+  color: white;
+}
+
+.aboutme {
+  background-color: #1c1a19;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 0 24px;
+}
+
+.about {
+  color: #ff6b00;
+  font-size: 72px;
+  font-family: "Crete Round", serif;
+  margin: 80px 0;
+  line-height: 88px;
+  font-weight: 400;
+}
+
+.hello {
+  color: #f4f5f7;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  margin: 20px 0;
+  font-family: "Inter", sans-serif;
+  line-height: 24px;
+}
+
+.info {
+  padding: 120px 24px;
+  border-bottom: 1px solid white;
+  background-image: url(./images/secondpage/Frame.svg);
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  margin: 0 -24px;
+}
+
+.myresume {
+  margin-bottom: 50px;
+  background-color: #ff6b00;
+  padding: 12px;
+  border: none;
+  cursor: pointer;
+  align-items: center;
+  font-size: 17px;
+  line-height: 24px;
+  font-weight: 700;
+  color: white;
+}
+
+.aboutmesec {
+  padding: 120px 0;
+  font-size: 22px;
+  color: white;
+  line-height: 43px;
+}
+
+.aboutmesec ul li {
+  margin-bottom: 32px;
+}
+
+.aboutmesec ul {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+
+.aboutmesec ul li:first-child {
+  font-size: 32px;
+  list-style-type: circle;
+}
