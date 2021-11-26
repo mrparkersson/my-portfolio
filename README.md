@@ -1,76 +1,60 @@
-Project Name
+![](https://img.shields.io/badge/mrparkersson-blueviolet)
 
-# Portfolio Mobile Version
+# Mobile Version
 
-- designing the "Work" and "About" Section
+> Mobile version is a skeleton of Porfolio
 
-# Name - Amo Prince Parker
+### Desktop
 
-One paragraph statement about the project.
-screenshot
+Porject's features are added into seperate branch to keep main branch safe.
 
-Continuation of Portfolio skeleton homepage
+## Built With
 
-- Implemeting all tags and containers in the HTML file
-- Using CSS to style all the components in the HTML file
+- HTML
+- CSS
 
-Additional description about the project and its features.
+## Online live link
 
-- This Page is fully responsive (you can checkout on all devices)
+[Visit project online](https://mrparkersson.github.io/mobile-version/)
 
-Built With
-
-Major languages - HTML/CSS
-Frameworks N/A
-Technologies used- VS Code
-Live Demo
-
-Live Demo Link
-
-Getting Started
-
-- Using Vs Code or any other code editer, clone the repository and run it using live server or opening the html file in your folder locally
-
-This is an example of how you may give instructions on setting up your project locally. Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.
+## Getting Started
 
 To get a local copy up and running follow these simple example steps.
 
-Prerequisites
+## Visit And Open Files
 
-Setup
+[Visit Repo](https://github.com/mrparkersson/mobile-version)
 
-Install
+## Download Repo
 
-Usage
+[Download Repo](https://github.com/mrparkersson/mobile-version/archive/refs/heads/feature.zip)
 
-Run tests
+## Authors
 
-Deployment
+👤 **Amo Parker Prince**
 
-Authors
+- GitHub: [@githubhandle](https://github.com/thecodechaser)
+- Twitter: [@twitterhandle](https://twitter.com/thecodechaser)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/thecodechaser)
 
-👤 Author1
+👤 **Emmanuel Gbenga**
 
-GitHub: @mrparkersson
-Twitter: @twitterhandle
-LinkedIn: LinkedIn
+- GitHub: [@githubhandle](github.com/gbengacode)
 
-🤝 Contributing
+## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the issues page.
+Feel free to check the [issues page](https://github.com/mrparkersson/mobile-version/issues).
 
-Show your support
+## Show your support
 
 Give a ⭐️ if you like this project!
 
-Acknowledgments
+## Acknowledgments
 
-Microverse
+- Inspiration: Microverse
 
-Inspiration
-etc
-📝 License
+## 📝 License
 
-This project is MIT licensed.
+This project is [MIT](./MIT.md) licensed.
