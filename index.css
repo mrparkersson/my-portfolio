@@ -14,7 +14,7 @@
 }
 
 .margin {
-  margin: 10px;
+  margin: 30px;
 }
 
 .recent {
@@ -107,6 +107,7 @@ a {
   font-size: 32px;
   line-height: 44px;
   font-weight: 400;
+  margin-left: 13px;
 }
 
 .selection {
@@ -116,6 +117,7 @@ a {
   font-weight: normal;
   font-style: normal;
   font-family: "Inter", serif;
+  margin-left: 13px;
 }
 
 .probtn {
@@ -123,7 +125,6 @@ a {
   background-color: rgba(117, 105, 105, 0.493);
   border: none;
   padding: 10px 12px;
-  margin-right: 12px;
   cursor: pointer;
   font-size: 15px;
   line-height: 20px;
@@ -134,6 +135,12 @@ a {
   grid-template-columns: 50px 90px 80px;
   padding-left: 1px;
   font-family: "Inter", serif;
+  margin-left: 15px;
+}
+
+.groupbtn li {
+  margin: 12px;
+  width: 90%;
 }
 
 .lgbtn {
