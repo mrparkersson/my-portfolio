@@ -132,16 +132,15 @@ a {
 }
 
 .groupbtn {
-  display: grid;
-  grid-template-columns: 50px 90px 80px;
+  display: block;
   padding-left: 1px;
   font-family: "Inter", serif;
   margin-left: 15px;
 }
 
 .groupbtn li {
-  margin: 12px;
-  width: 90%;
+  margin-right: 12px;
+  float: left;
 }
 
 .lgbtn {
