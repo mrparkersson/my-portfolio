@@ -188,8 +188,14 @@
         chat please get in touch.
       </h3>
       <form action="https://formspree.io/f/{form_id}" method="post">
-        <input type="text" name="name" placeholder="Full name" max="30" />
-        <input type="email" name="email" placeholder="Email address" />
+        <input
+          type="text"
+          name="name"
+          placeholder="Full name"
+          max="30"
+          required
+        />
+        <input type="email" name="email" placeholder="Email address" required />
         <textarea
           name=""
           id=""
