@@ -215,6 +215,14 @@ a {
   line-height: 43px;
 }
 
+.contact-form li {
+  padding: 12px;
+}
+
+.contact-form li {
+  padding: 12px;
+}
+
 .aboutmesec ul li {
   margin-bottom: 32px;
 }
@@ -299,18 +307,4 @@ form button {
   display: flex;
   border-top: 1px solid black;
   justify-content: center;
-}
-
-.contact-form li {
-  padding: 12px;
-}
-
-.contact-form ul {
-  display: flex;
-  border-top: 1px solid #dfe1e6;
-  justify-content: center;
-}
-
-.contact-form li {
-  padding: 12px;
 }
