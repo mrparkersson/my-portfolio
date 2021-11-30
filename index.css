@@ -27,6 +27,7 @@
 .container {
   background-color: white;
   padding: 1rem;
+  margin-bottom: 125px;
 }
 
 .line {
@@ -227,4 +228,79 @@ a {
 .aboutmesec ul li:first-child {
   font-size: 32px;
   list-style-type: circle;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  padding: 120px 24px;
+}
+
+.contact-form h2 {
+  color: #172b4d;
+  font-family: "Inter", serif;
+  font-style: normal;
+  line-height: 44px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 32px;
+  margin-bottom: 60px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+form input {
+  width: 100%;
+  padding: 14px;
+  font-size: 15px;
+  font-weight: 400;
+  font-family: "Inter", serif;
+  line-height: 24px;
+  color: #979493;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #dbd8d7;
+  margin-bottom: 24px;
+}
+
+form textarea {
+  width: 100%;
+  background-color: #fbf8f7;
+  padding: 12px;
+  font-family: "Inter", serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #3c3a39;
+  margin-bottom: 24px;
+  border: none;
+  outline: none;
+}
+
+form button {
+  background-color: #ff6b00;
+  padding: 12px;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+  font-size: 17px;
+  line-height: 24px;
+  font-weight: 700;
+  color: white;
+  width: fit-content;
+  margin-bottom: 218px;
+}
+
+.contact-form ul {
+  display: flex;
+  border-top: 1px solid black;
+  justify-content: center;
+}
+
+.contact-form li {
+  padding: 12px;
 }
