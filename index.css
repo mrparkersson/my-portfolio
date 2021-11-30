@@ -236,7 +236,7 @@ a {
   padding: 120px 24px;
 }
 
-.contact-form h2 {
+.interested {
   color: #172b4d;
   font-family: "Inter", serif;
   font-style: normal;
@@ -293,14 +293,4 @@ form button {
   color: white;
   width: fit-content;
   margin-bottom: 218px;
-}
-
-.contact-form ul {
-  display: flex;
-  border-top: 1px solid black;
-  justify-content: center;
-}
-
-.contact-form li {
-  padding: 12px;
 }
