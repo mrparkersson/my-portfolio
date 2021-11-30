@@ -294,3 +294,23 @@ form button {
   width: fit-content;
   margin-bottom: 218px;
 }
+
+.contact-form ul {
+  display: flex;
+  border-top: 1px solid black;
+  justify-content: center;
+}
+
+.contact-form li {
+  padding: 12px;
+}
+
+.contact-form ul {
+  display: flex;
+  border-top: 1px solid #dfe1e6;
+  justify-content: center;
+}
+
+.contact-form li {
+  padding: 12px;
+}
