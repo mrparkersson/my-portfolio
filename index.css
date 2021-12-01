@@ -304,3 +304,29 @@ form button {
   border-top: 1px solid black;
   justify-content: center;
 }
+
+@media (min-width: 900px) and (max-width: 2000px) {
+  .d-grid {
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 24px 140px;
+  }
+
+  .recent-line {
+    display: flex;
+    align-items: center;
+    padding: 0 140px;
+  }
+
+  .line {
+    width: 100%;
+  }
+
+  .acrosection {
+    display: flex;
+    padding: 0 140px;
+  }
+
+  .acrosection div {
+    padding: 0 24px;
+  }
+}
