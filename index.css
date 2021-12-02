@@ -390,10 +390,6 @@ form button {
     color: white;
   }
 
-  header h3 {
-    font-weight: 200;
-  }
-
   header div {
     padding: 24px 24px;
     display: flex;
