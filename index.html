@@ -6,14 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="index.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Crete+Round&family=Heebo:wght@600&family=Poppins:wght@100;200&family=Roboto:wght@100&display=swap"
-      rel="stylesheet"
-    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Crete+Round&family=Heebo:wght@600&family=Inter:wght@100&family=Poppins:wght@100;200&family=Roboto:wght@100&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Crete+Round&family=Heebo:wght@600&family=Inter:wght@700&family=Poppins:wght@100;200&family=Roboto:wght@100;400;500;700&display=swap"
       rel="stylesheet"
     />
     <title>Work and About section</title>
@@ -21,13 +17,16 @@
   <body>
     <!-- WORK SECTION -->
     <header>
-      <img
-        class="headericons"
-        src="./images/secondpage/headericons.svg"
-        alt=""
-      />
+      <div>
+        <h3>Jon Doe</h3>
+        <ul>
+          <li><a href="#"> Portfolio</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
     </header>
-    <div class="recent-line">
+    <div class="recent-line d-grid">
       <h2 class="recent margin">My Recent Works</h2>
       <div class="line margin"></div>
     </div>
@@ -141,8 +140,8 @@
     <!-- ABOUT SECTION -->
 
     <section class="aboutme">
-      <div class="aboutmecurl">
-        <div class="info">
+      <div class="info">
+        <div class="info-content">
           <h2 class="about">About Me</h2>
 
           <p class="hello">
@@ -154,15 +153,8 @@
 
           <button class="myresume" type="submit">Get My Resume</button>
         </div>
-        <!-- Image frame -->
-        <div>
-          <img
-            class="curlyimg"
-            src="./images/secondpage/Frame.svg"
-            alt="frame"
-          />
-        </div>
       </div>
+      <!-- Image frame -->
 
       <div class="aboutmesec">
         <ul>
@@ -197,36 +189,45 @@
     </section>
 
     <!-- CONTACT FORM -->
-    <section class="contact-form">
-      <h3 class="interested">
-        I'm always interested in hearing about new projects, so if you'd like to
-        chat please get in touch.
-      </h3>
-      <form action="https://formspree.io/f/mqknzynw" method="post">
-        <input
-          type="text"
-          name="name"
-          placeholder="Full name"
-          maxlength="30"
-          required
-        />
-        <input type="email" name="email" placeholder="Email address" required />
-        <textarea
-          name="message"
-          cols="30"
-          rows="10"
-          maxlength="500"
-          placeholder="Enter text here"
-        ></textarea>
-        <button type="submit">Get in touch</button>
-      </form>
-      <ul>
-        <li><img src="./images/secondpage/toy2.svg" alt="imgages" /></li>
-        <li><img src="./images/secondpage/linkedin.svg" alt="images" /></li>
-        <li><img src="./images/secondpage/hands.svg" alt="images" /></li>
-        <li><img src="./images/secondpage/bird.svg" alt="images" /></li>
-        <li><img src="./images/secondpage/bigm.svg" alt="images" /></li>
-      </ul>
-    </section>
+    <footer>
+      <section class="contact-form">
+        <div class="form">
+          <h3 class="interested">
+            I'm always interested in hearing about new projects, so if you'd
+            like to chat please get in touch.
+          </h3>
+          <form action="https://formspree.io/f/mqknzynw" method="post">
+            <input
+              type="text"
+              name="name"
+              placeholder="Full name"
+              maxlength="30"
+              required
+            />
+            <input
+              type="email"
+              name="email"
+              placeholder="Email address"
+              required
+            />
+            <textarea
+              name="message"
+              cols="30"
+              rows="10"
+              maxlength="500"
+              placeholder="Enter text here"
+            ></textarea>
+            <button type="submit">Get in touch</button>
+          </form>
+        </div>
+        <ul>
+          <li><img src="./images/secondpage/toy2.svg" alt="imgages" /></li>
+          <li><img src="./images/secondpage/linkedin.svg" alt="images" /></li>
+          <li><img src="./images/secondpage/hands.svg" alt="images" /></li>
+          <li><img src="./images/secondpage/bird.svg" alt="images" /></li>
+          <li><img src="./images/secondpage/bigm.svg" alt="images" /></li>
+        </ul>
+      </section>
+    </footer>
   </body>
 </html>

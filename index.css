@@ -13,6 +13,26 @@
   width: 100%;
 }
 
+header {
+  background-color: #3e3c3c;
+  color: white;
+}
+
+header div {
+  padding: 24px 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header ul {
+  display: flex;
+}
+
+header div li {
+  margin: 24px;
+}
+
 .margin {
   margin: 30px;
 }
@@ -30,7 +50,6 @@
 
 .line {
   border-bottom: 3px solid #212121;
-  padding-top: 2rem;
 }
 
 .multi {
@@ -243,7 +262,6 @@ a {
   font-family: "Inter", serif;
   font-style: normal;
   line-height: 44px;
-  text-align: center;
   font-weight: 700;
   font-size: 32px;
   margin-bottom: 60px;
@@ -303,7 +321,7 @@ form button {
   justify-content: center;
 }
 
-@media (min-width: 900px) and (max-width: 2000px) {
+@media (min-width: 992px) {
   .d-grid {
     grid-template-columns: 1fr 1fr 1fr;
     padding: 24px 140px;
@@ -312,7 +330,7 @@ form button {
   .recent-line {
     display: flex;
     align-items: center;
-    padding: 0 140px;
+    padding: 24px 141px;
   }
 
   .line {
@@ -329,10 +347,100 @@ form button {
   }
 
   .recent {
-    margin-right: 24px;
+    width: 50%;
   }
 
   .aboutmecurl {
     display: flex;
+  }
+
+  .info {
+    padding: 0;
+    background-image: none;
+  }
+
+  .info-content {
+    width: 50%;
+  }
+
+  .aboutmesec {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    text-align: left;
+  }
+
+  .aboutme {
+    padding: 130px 142px;
+    background-image: url(./images/secondpage/biggerimg.svg);
+    background-position: 100% 10%;
+    background-repeat: no-repeat;
+  }
+
+  .form {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    text-align: left;
+    gap: 24px;
+    padding: 0 135px;
+  }
+
+  header {
+    background-color: #3e3c3c;
+    color: white;
+  }
+
+  header h3 {
+    font-weight: 200;
+  }
+
+  header div {
+    padding: 24px 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  header ul {
+    display: flex;
+  }
+
+  header div li {
+    margin: 24px;
+  }
+
+  header div ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+    line-height: 20px;
+    font-style: normal;
+  }
+
+  header div ul li a:hover {
+    border-bottom: 2px solid green;
+  }
+
+  form button {
+    margin-bottom: 154px;
+  }
+
+  .interested {
+    font-weight: 700;
+    font-family: "Inter", serif;
+    font-style: normal;
+    font-size: 40px;
+    line-height: 52px;
+    text-align: left;
+  }
+
+  form input {
+    font-weight: 400;
+    font-family: "Roboto", serif;
+  }
+
+  form textarea {
+    font-weight: 400;
+    font-family: "Roboto", serif;
   }
 }
