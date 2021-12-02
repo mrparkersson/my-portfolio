@@ -9,8 +9,32 @@
   grid-gap: 1rem;
 }
 
+li {
+  list-style: none;
+}
+
 .headericons {
   width: 100%;
+}
+
+header {
+  background-color: #3e3c3c;
+  color: white;
+}
+
+header div {
+  padding: 24px 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header ul {
+  display: flex;
+}
+
+header div li {
+  margin: 24px;
 }
 
 .margin {
@@ -20,18 +44,16 @@
 .recent {
   font-size: 30px;
   font-family: "Crete Round", serif;
-  text-align: center;
-  align-items: center;
 }
 
 .container {
   background-color: white;
   padding: 1rem;
+  margin-bottom: 125px;
 }
 
 .line {
   border-bottom: 3px solid #212121;
-  padding-top: 2rem;
 }
 
 .multi {
@@ -41,10 +63,6 @@
 
 .acrobat {
   width: 100%;
-}
-
-li {
-  list-style: none;
 }
 
 .daily {
@@ -132,16 +150,15 @@ a {
 }
 
 .groupbtn {
-  display: grid;
-  grid-template-columns: 50px 90px 80px;
+  display: block;
   padding-left: 1px;
   font-family: "Inter", serif;
   margin-left: 15px;
 }
 
 .groupbtn li {
-  margin: 12px;
-  width: 90%;
+  margin-right: 12px;
+  float: left;
 }
 
 .lgbtn {
@@ -215,6 +232,10 @@ a {
   line-height: 43px;
 }
 
+.contact-form li {
+  padding: 12px;
+}
+
 .aboutmesec ul li {
   margin-bottom: 32px;
 }
@@ -228,4 +249,194 @@ a {
 .aboutmesec ul li:first-child {
   font-size: 32px;
   list-style-type: circle;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  padding: 120px 24px;
+}
+
+.interested {
+  color: #172b4d;
+  font-family: "Inter", serif;
+  font-style: normal;
+  line-height: 44px;
+  font-weight: 700;
+  font-size: 32px;
+  margin-bottom: 60px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+form input {
+  width: 100%;
+  padding: 14px;
+  font-size: 15px;
+  font-weight: 400;
+  font-family: "Inter", serif;
+  line-height: 24px;
+  color: #979493;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #dbd8d7;
+  margin-bottom: 24px;
+}
+
+form textarea {
+  width: 100%;
+  background-color: #fbf8f7;
+  padding: 12px;
+  font-family: "Inter", serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #3c3a39;
+  margin-bottom: 24px;
+  border: none;
+  outline: none;
+}
+
+form button {
+  background-color: #ff6b00;
+  padding: 12px;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+  font-size: 17px;
+  line-height: 24px;
+  font-weight: 700;
+  color: white;
+  width: fit-content;
+  margin-bottom: 218px;
+}
+
+.contact-form ul {
+  display: flex;
+  border-top: 1px solid black;
+  justify-content: center;
+}
+
+@media (min-width: 992px) {
+  .d-grid {
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 24px 140px;
+  }
+
+  .recent-line {
+    display: flex;
+    align-items: center;
+    padding: 24px 141px;
+  }
+
+  .line {
+    width: 100%;
+  }
+
+  .acrosection {
+    display: flex;
+    padding: 24px 141px;
+  }
+
+  .multi {
+    margin: 24px 24px;
+  }
+
+  .recent {
+    width: 50%;
+  }
+
+  .aboutmecurl {
+    display: flex;
+  }
+
+  .info {
+    padding: 0;
+    background-image: none;
+  }
+
+  .info-content {
+    width: 50%;
+  }
+
+  .aboutmesec {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    text-align: left;
+  }
+
+  .aboutme {
+    padding: 130px 142px;
+    background-image: url(./images/secondpage/biggerimg.svg);
+    background-position: 100% 10%;
+    background-repeat: no-repeat;
+  }
+
+  .form {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    text-align: left;
+    gap: 24px;
+    padding: 0 135px;
+  }
+
+  header {
+    background-color: #3e3c3c;
+    color: white;
+  }
+
+  header div {
+    padding: 24px 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  header ul {
+    display: flex;
+  }
+
+  header div li {
+    margin: 24px;
+  }
+
+  header div ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+    line-height: 20px;
+    font-style: normal;
+  }
+
+  header div ul li a:hover {
+    border-bottom: 2px solid green;
+  }
+
+  form button {
+    margin-bottom: 154px;
+  }
+
+  .interested {
+    font-weight: 700;
+    font-family: "Inter", serif;
+    font-style: normal;
+    font-size: 40px;
+    line-height: 52px;
+    text-align: left;
+  }
+
+  form input {
+    font-weight: 400;
+    font-family: "Roboto", serif;
+  }
+
+  form textarea {
+    font-weight: 400;
+    font-family: "Roboto", serif;
+  }
 }
