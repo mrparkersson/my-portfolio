@@ -9,6 +9,10 @@
   grid-gap: 1rem;
 }
 
+li {
+  list-style: none;
+}
+
 .headericons {
   width: 100%;
 }
@@ -59,10 +63,6 @@ header div li {
 
 .acrobat {
   width: 100%;
-}
-
-li {
-  list-style: none;
 }
 
 .daily {
