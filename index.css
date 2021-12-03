@@ -321,6 +321,14 @@ form button {
   justify-content: center;
 }
 
+.lgbtn:hover {
+  background-color: #ae6531;
+}
+
+.myresume:hover {
+  background-color: #ce9368;
+}
+
 @media (min-width: 992px) {
   .d-grid {
     grid-template-columns: 1fr 1fr 1fr;
