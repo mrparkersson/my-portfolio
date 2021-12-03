@@ -65,6 +65,10 @@ header div li {
   width: 100%;
 }
 
+.acrobat:hover {
+  transform: scale(0.95);
+}
+
 .daily {
   text-align: left;
   font-style: normal;
