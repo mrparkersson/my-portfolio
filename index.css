@@ -3,6 +3,50 @@
   margin: 0;
 }
 
+/*  */
+.sectionbody {
+  padding: 120px 24px;
+  gap: 12px;
+  display: flex;
+  flex-direction: column;
+  background-color: #1c1a19;
+  color: white;
+  background-image: url(./images/secondpage/Group.png);
+  background-repeat: no-repeat;
+  background-position: 100% 120%;
+}
+
+.sectionbody h1 {
+  color: #f55800;
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 64px;
+  font-family: "Crete Round", serif;
+}
+
+.sectionbody h2 {
+  color: #fff5e1;
+  font-size: 24px;
+  line-height: 32px;
+  font-family: "Roboto", sans-serif;
+}
+
+.sectionbody p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  font-family: "Poppins", sans-serif;
+}
+
+.sectionbody ul {
+  display: flex;
+  padding: 0;
+}
+
+.sectionbody ul li {
+  margin: 0 20px;
+}
+/*  */
 .d-grid {
   display: grid;
   grid-template-columns: auto;
@@ -456,5 +500,31 @@ form button {
   form textarea {
     font-weight: 400;
     font-family: "Roboto", serif;
+  }
+
+  .sectionbody,
+  header div {
+    padding-left: 150px;
+    padding-right: 150px;
+  }
+
+  .sectionbody h1,
+  .sectionbody h2,
+  .sectionbody p {
+    width: 40%;
+  }
+
+  .sectionbody {
+    background-image: url(./images/secondpage/smallimg.svg);
+    background-size: contain;
+    position: relative;
+  }
+
+  .sectionbody ul {
+    flex-direction: column;
+    position: absolute;
+    left: 0;
+    gap: 10px;
+    top: 30%;
   }
 }
