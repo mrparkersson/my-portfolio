@@ -3,7 +3,6 @@
   margin: 0;
 }
 
-/*  */
 .sectionbody {
   padding: 120px 24px;
   gap: 12px;
@@ -46,7 +45,7 @@
 .sectionbody ul li {
   margin: 0 20px;
 }
-/*  */
+
 .d-grid {
   display: grid;
   grid-template-columns: auto;
