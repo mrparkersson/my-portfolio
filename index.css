@@ -65,6 +65,10 @@ header div li {
   width: 100%;
 }
 
+.acrobat:hover {
+  transform: scale(0.95);
+}
+
 .daily {
   text-align: left;
   font-style: normal;
@@ -174,6 +178,7 @@ a {
   align-items: center;
   font-weight: 700;
   color: white;
+  transition: all 0.25s ease-in-out;
 }
 
 .aboutme {
@@ -319,6 +324,19 @@ form button {
   display: flex;
   border-top: 1px solid black;
   justify-content: center;
+}
+
+.lgbtn:hover {
+  background-color: #e28c4f;
+}
+
+.lgbtn:active {
+  background-color: #cf5a06;
+  transform: scale(0.9);
+}
+
+.myresume:hover {
+  background-color: #ce9368;
 }
 
 @media (min-width: 992px) {
