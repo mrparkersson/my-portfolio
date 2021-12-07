@@ -37,6 +37,27 @@
   font-family: "Poppins", sans-serif;
 }
 
+header ul {
+  display: flex;
+}
+
+header div li {
+  margin: 24px;
+}
+
+.contact-form li {
+  padding: 12px;
+}
+
+.groupbtn li {
+  margin-right: 12px;
+  float: left;
+}
+
+li {
+  list-style: none;
+}
+
 .sectionbody ul {
   display: flex;
   padding: 0;
@@ -50,10 +71,6 @@
   display: grid;
   grid-template-columns: auto;
   grid-gap: 1rem;
-}
-
-li {
-  list-style: none;
 }
 
 .headericons {
@@ -70,14 +87,6 @@ header div {
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
-
-header ul {
-  display: flex;
-}
-
-header div li {
-  margin: 24px;
 }
 
 .margin {
@@ -203,11 +212,6 @@ a {
   margin-left: 15px;
 }
 
-.groupbtn li {
-  margin-right: 12px;
-  float: left;
-}
-
 .lgbtn {
   width: 100%;
   padding: 12px;
@@ -278,10 +282,6 @@ a {
   font-size: 22px;
   color: white;
   line-height: 43px;
-}
-
-.contact-form li {
-  padding: 12px;
 }
 
 .aboutmesec ul li {
