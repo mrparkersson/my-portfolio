@@ -3,6 +3,10 @@
   margin: 0;
 }
 
+li {
+  list-style: none;
+}
+
 .sectionbody {
   padding: 120px 24px;
   gap: 12px;
@@ -52,10 +56,6 @@ header div li {
 .groupbtn li {
   margin-right: 12px;
   float: left;
-}
-
-li {
-  list-style: none;
 }
 
 .sectionbody ul {
