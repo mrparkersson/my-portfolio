@@ -42,6 +42,48 @@ li {
 }
 
 header ul {
+  display: none;
+}
+
+.hamburger {
+  display: none;
+  background-color: black;
+  color: #fff5e1;
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  z-index: 199;
+  top: 0;
+  left: 0;
+}
+
+.hamburger ul li a {
+  color: #fff5e1;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  font-style: normal;
+  font-family: "Inter", sans-serif;
+}
+
+.hamburger ul {
+  display: flex;
+  flex-direction: column;
+  padding: 108px 108px;
+}
+
+.hamburger ul li {
+  margin-top: 40px;
+  border-bottom: 1px solid #fff5e1;
+}
+
+#xicon {
+  position: absolute;
+  top: 40px;
+  right: 40px;
+}
+
+.union {
   display: flex;
 }
 
@@ -147,7 +189,7 @@ header div {
   border-radius: 0;
   border-style: none;
   color: white;
-  font-family: "Intter", serif;
+  font-family: "Inter", sans-serif;
   font-size: 17px;
   line-height: 24px;
   align-items: center;
@@ -398,9 +440,25 @@ form button {
     width: 100%;
   }
 
+  .hamburger {
+    display: none;
+  }
+
+  #xicon {
+    display: none;
+  }
+
   .acrosection {
     display: flex;
     padding: 24px 141px;
+  }
+
+  header ul {
+    display: flex;
+  }
+
+  .union {
+    display: none;
   }
 
   .multi {

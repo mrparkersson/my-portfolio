@@ -29,23 +29,41 @@
     </script>
 
     <title>_John Doe Portfolio</title>
+    <script src="./script.js" defer></script>
   </head>
   <body>
     <!-- WORK SECTION -->
     <header>
       <div>
-        <h3>Jon Doe</h3>
+        <h3 id="jon">Jon Doe</h3>
         <ul>
           <li><a href="#"> Portfolio</a></li>
-          <li><a href="#">About</a></li>
+          <li><a href="#about" id="aboutlink">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+        <img
+          src="./images/secondpage/Union.svg"
+          alt="union img"
+          class="union"
+        />
+      </div>
+    </header>
+
+    <div class="hamburger">
+      <div class="menu-container">
+        <img src="./images/secondpage/Icon.svg" alt="xicon image" id="xicon" />
+
+        <ul>
+          <li><a href="#">Portfolio</a></li>
+          <li><a href="#">About </a></li>
           <li><a href="#">Contact</a></li>
         </ul>
       </div>
-    </header>
+    </div>
     <!-- FIRST PAGE  -->
     <section class="sectionbody d-flex">
       <div class="h1fam">
-        <h1>Hey There. <br />I'm Alex</h1>
+        <h1>Hey There. <br />I'm Parker</h1>
       </div>
 
       <h2 class="margintext">I’am a Software Developer</h2>
@@ -68,7 +86,7 @@
         </li>
         <li>
           <a href="#"
-            ><img src="./images/secondpage/hands.svg" alt="hands link"
+            ><img src="./images/secondpage/hands.svg" alt="angelist link"
           /></a>
         </li>
         <li>
@@ -78,7 +96,7 @@
         </li>
         <li>
           <a href="#"
-            ><img src="./images/secondpage/bigm.svg" alt="bigm img"
+            ><img src="./images/secondpage/bigm.svg" alt="medium link"
           /></a>
         </li>
       </ul>
@@ -203,7 +221,7 @@
 
     <!-- ABOUT SECTION -->
 
-    <section class="aboutme">
+    <section class="aboutme" id="about">
       <div class="info">
         <div class="info-content">
           <h2 class="about">About Me</h2>
@@ -262,19 +280,24 @@
           </h3>
           <form action="https://formspree.io/f/mqknzynw" method="post">
             <input
+              id="name"
               type="text"
               name="name"
               placeholder="Full name"
               maxlength="30"
               required
             />
+
             <input
+              id="email"
               type="email"
               name="email"
               placeholder="Email address"
               required
             />
+            <label for="textarea"></label>
             <textarea
+              id="textarea"
               name="message"
               cols="30"
               rows="10"
@@ -289,9 +312,11 @@
           <li>
             <img src="./images/secondpage/linkedin.svg" alt="linkedin link" />
           </li>
-          <li><img src="./images/secondpage/hands.svg" alt="images" /></li>
+          <li>
+            <img src="./images/secondpage/hands.svg" alt="angelist link" />
+          </li>
           <li><img src="./images/secondpage/bird.svg" alt="twitter link" /></li>
-          <li><img src="./images/secondpage/bigm.svg" alt="images" /></li>
+          <li><img src="./images/secondpage/bigm.svg" alt="medium link" /></li>
         </ul>
       </section>
     </footer>
