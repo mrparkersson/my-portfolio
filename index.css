@@ -45,9 +45,15 @@ li {
   font-family: "Poppins", sans-serif;
 }
 
-.groupbtn li {
-  margin-right: 12px;
-  float: left;
+a {
+  text-decoration: none;
+  font-family: "Inter", serif;
+  font-size: 17px;
+  color: white;
+}
+
+.contact-form li {
+  padding: 12px;
 }
 
 header ul {
@@ -94,6 +100,11 @@ header div li {
   border-bottom: 1px solid #fff5e1;
 }
 
+.groupbtn li {
+  margin-right: 12px;
+  float: left;
+}
+
 #xicon {
   position: absolute;
   top: 40px;
@@ -102,10 +113,6 @@ header div li {
 
 .union {
   display: flex;
-}
-
-.contact-form li {
-  padding: 12px;
 }
 
 .sectionbody ul {
@@ -202,13 +209,6 @@ header div {
   line-height: 24px;
   align-items: center;
   font-weight: 700;
-}
-
-a {
-  text-decoration: none;
-  font-family: "Inter", serif;
-  font-size: 17px;
-  color: white;
 }
 
 .last-part {
