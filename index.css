@@ -3,6 +3,10 @@
   margin: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 li {
   list-style: none;
 }
@@ -45,11 +49,15 @@ header ul {
   display: none;
 }
 
+.menu-container {
+  width: 100%;
+}
+
 .hamburger {
   display: none;
-  background-color: #3C3A39;
+  background-color: #3c3a39;
   color: #fff5e1;
-  position: absolute;
+  position: fixed;
   width: 100vw;
   height: 100vh;
   z-index: 199;
