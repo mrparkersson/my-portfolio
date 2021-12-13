@@ -45,6 +45,11 @@ li {
   font-family: "Poppins", sans-serif;
 }
 
+.groupbtn li {
+  margin-right: 12px;
+  float: left;
+}
+
 header ul {
   display: none;
 }
@@ -63,6 +68,10 @@ header ul {
   z-index: 199;
   top: 0;
   left: 0;
+}
+
+header div li {
+  margin: 24px;
 }
 
 .hamburger ul li a {
@@ -95,17 +104,8 @@ header ul {
   display: flex;
 }
 
-header div li {
-  margin: 24px;
-}
-
 .contact-form li {
   padding: 12px;
-}
-
-.groupbtn li {
-  margin-right: 12px;
-  float: left;
 }
 
 .sectionbody ul {
