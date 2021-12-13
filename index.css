@@ -52,6 +52,10 @@ a {
   color: white;
 }
 
+header div li {
+  margin: 24px;
+}
+
 .contact-form li {
   padding: 12px;
 }
@@ -64,6 +68,11 @@ header ul {
   width: 100%;
 }
 
+.groupbtn li {
+  margin-right: 12px;
+  float: left;
+}
+
 .hamburger {
   display: none;
   background-color: #3c3a39;
@@ -74,10 +83,6 @@ header ul {
   z-index: 199;
   top: 0;
   left: 0;
-}
-
-header div li {
-  margin: 24px;
 }
 
 .hamburger ul li a {
@@ -98,11 +103,6 @@ header div li {
 .hamburger ul li {
   margin-top: 40px;
   border-bottom: 1px solid #fff5e1;
-}
-
-.groupbtn li {
-  margin-right: 12px;
-  float: left;
 }
 
 #xicon {
@@ -522,10 +522,6 @@ form button {
     display: flex;
     justify-content: space-between;
     align-items: center;
-  }
-
-  header ul {
-    display: flex;
   }
 
   header div li {
