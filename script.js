@@ -1,5 +1,5 @@
 document.querySelector('.union').addEventListener('click', () => {
-  document.querySelector('.hamburger').style.display = "flex";
+  document.querySelector('.hamburger').style.display = 'flex';
 });
 
 document.querySelector('#xicon').addEventListener('click', () => {
