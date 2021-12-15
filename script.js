@@ -96,19 +96,17 @@ const seeProject = [
 for (let i = 0; i < seeProject.length; i += 1) {
   document.querySelector('#worksection').innerHTML += `
   <div class='last-part'>
-<h3 class='professional'>${seeProject[i].title}</h3>
-<p class='selection'>
-  ${seeProject[i].description}
-</p>
-<ul class='groupbtn'>
-  
- ${seeProject[i].technologies
-   .map((x) => `<li><button class='probtn' type='submit'>${x}</button></li>`)
-   .join('')} 
-</ul>
-<button class='lgbtn' id='project-${seeProject[i].id}'>See Project</button>
-</div>
-`;
+    <h3 class='professional'>${seeProject[i].title}</h3>
+    <p class='selection'>
+      ${seeProject[i].description}
+    </p>
+    <ul class='groupbtn'>
+    ${seeProject[i].technologies
+      .map((x) => `<li><button class='probtn' type='submit'>${x}</button></li>`)
+      .join('')} 
+    </ul>
+    <button class='lgbtn' id='project-${seeProject[i].id}'>See Project</button>
+  </div>`;
 }
 
 // popup
