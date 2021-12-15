@@ -93,9 +93,9 @@ const seeProject = [
   },
 ];
 
-const list = (v) => {
+function list(v) {
   return v.map((x) => `<li><button class='probtn'>${x}</button></li>`).join('');
-};
+}
 
 for (let i = 0; i < seeProject.length; i += 1) {
   document.querySelector('#worksection').innerHTML += `
