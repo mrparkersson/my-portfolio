@@ -134,3 +134,7 @@ document.querySelectorAll('.lgbtn').forEach((x) => {
 document.querySelector('.close-icon').addEventListener('click', () => {
   document.querySelector('.backdrop').style.display = 'none';
 });
+
+document.querySelector('#seeprobtn').addEventListener('click', () => {
+  document.querySelector('.backdrop').style.display = 'grid';
+});

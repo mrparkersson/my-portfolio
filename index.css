@@ -559,6 +559,12 @@ form button {
     width: 100%;
   }
 
+  .top-buttons ul li button {
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+  }
+
   .simply {
     margin-bottom: 200px;
     font-family: 'Inter', sans-serif;
