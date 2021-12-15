@@ -28,26 +28,26 @@ li {
   font-weight: 400;
   font-size: 56px;
   line-height: 64px;
-  font-family: "Crete Round", serif;
+  font-family: 'Crete Round', serif;
 }
 
 .sectionbody h2 {
   color: #fff5e1;
   font-size: 24px;
   line-height: 32px;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 .sectionbody p {
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 a {
   text-decoration: none;
-  font-family: "Inter", serif;
+  font-family: 'Inter', serif;
   font-size: 17px;
   color: white;
 }
@@ -85,13 +85,28 @@ header ul {
   left: 0;
 }
 
+.bottom-btn a {
+  background-color: #ff6b00;
+  border: none;
+  color: white;
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 24px;
+  display: flex;
+  justify-content: space-between;
+  padding: 12px;
+  align-items: center;
+  flex-grow: 1;
+}
+
 .hamburger ul li a {
   color: #fff5e1;
   font-weight: 700;
   font-size: 32px;
   line-height: 44px;
   font-style: normal;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
 }
 
 .hamburger ul {
@@ -152,7 +167,7 @@ header div {
 
 .recent {
   font-size: 30px;
-  font-family: "Crete Round", serif;
+  font-family: 'Crete Round', serif;
 }
 
 .container {
@@ -167,7 +182,7 @@ header div {
 
 .multi {
   font-weight: 400;
-  font-family: "Crete Round", serif;
+  font-family: 'Crete Round', serif;
 }
 
 .acrobat {
@@ -204,7 +219,7 @@ header div {
   border-radius: 0;
   border-style: none;
   color: white;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-size: 17px;
   line-height: 24px;
   align-items: center;
@@ -224,7 +239,7 @@ header div {
 
 .professional {
   margin-bottom: 12px;
-  font-family: "Crete Round", serif;
+  font-family: 'Crete Round', serif;
   color: white;
   font-style: normal;
   font-size: 32px;
@@ -239,7 +254,7 @@ header div {
   font-size: 16px;
   font-weight: normal;
   font-style: normal;
-  font-family: "Inter", serif;
+  font-family: 'Inter', serif;
   margin-left: 13px;
   padding-right: 16px;
 }
@@ -258,7 +273,7 @@ header div {
 .groupbtn {
   display: block;
   padding-left: 1px;
-  font-family: "Inter", serif;
+  font-family: 'Inter', serif;
   margin-left: 15px;
 }
 
@@ -267,7 +282,7 @@ header div {
   padding: 12px;
   background-color: #ff6b00;
   border-style: none;
-  font-family: "Inter", serif;
+  font-family: 'Inter', serif;
   margin: 0;
   cursor: pointer;
   font-size: 17px;
@@ -289,7 +304,7 @@ header div {
 .about {
   color: #ff6b00;
   font-size: 72px;
-  font-family: "Crete Round", serif;
+  font-family: 'Crete Round', serif;
   margin: 80px 0;
   line-height: 88px;
   font-weight: 400;
@@ -301,7 +316,7 @@ header div {
   font-style: normal;
   font-size: 16px;
   margin: 20px 0;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   line-height: 24px;
 }
 
@@ -357,7 +372,7 @@ header div {
 
 .interested {
   color: #172b4d;
-  font-family: "Inter", serif;
+  font-family: 'Inter', serif;
   font-style: normal;
   line-height: 44px;
   font-weight: 700;
@@ -376,7 +391,7 @@ form input {
   padding: 14px;
   font-size: 15px;
   font-weight: 400;
-  font-family: "Inter", serif;
+  font-family: 'Inter', serif;
   line-height: 24px;
   color: #979493;
   border: none;
@@ -389,7 +404,7 @@ form textarea {
   width: 100%;
   background-color: #fbf8f7;
   padding: 12px;
-  font-family: "Inter", serif;
+  font-family: 'Inter', serif;
   font-size: 15px;
   font-weight: 400;
   line-height: 24px;
@@ -436,7 +451,7 @@ form button {
   color: #172b4d;
   font-weight: 700;
   font-style: normal;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 32px;
   line-height: 44px;
 }
@@ -460,7 +475,7 @@ form button {
 .topbtns {
   border: 1px solid gray;
   background-color: white;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-size: 13px;
   line-height: 16px;
@@ -468,7 +483,7 @@ form button {
 }
 
 .simply {
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: 16px;
@@ -491,21 +506,6 @@ form button {
   align-items: center;
   gap: 19px;
   width: 100%;
-}
-
-.bottom-btn a {
-  background-color: #ff6b00;
-  border: none;
-  color: white;
-  font-family: "Inter", sans-serif;
-  font-weight: 700;
-  font-style: normal;
-  line-height: 24px;
-  display: flex;
-  justify-content: space-between;
-  padding: 12px;
-  align-items: center;
-  flex-grow: 1;
 }
 
 .backdrop {
@@ -533,6 +533,39 @@ form button {
   .d-grid {
     grid-template-columns: 1fr 1fr 1fr;
     padding: 24px 140px;
+  }
+
+  .pop-up {
+    background: white;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+  }
+
+  .desktop-pop {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+  }
+
+  .flex-desktop {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #snapshot {
+    width: 100%;
+  }
+
+  .simply {
+    margin-bottom: 200px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    font-size: 16px;
   }
 
   .recent-line {
@@ -643,7 +676,7 @@ form button {
 
   .interested {
     font-weight: 700;
-    font-family: "Inter", serif;
+    font-family: 'Inter', serif;
     font-style: normal;
     font-size: 40px;
     line-height: 52px;
@@ -652,12 +685,12 @@ form button {
 
   form input {
     font-weight: 400;
-    font-family: "Roboto", serif;
+    font-family: 'Roboto', serif;
   }
 
   form textarea {
     font-weight: 400;
-    font-family: "Roboto", serif;
+    font-family: 'Roboto', serif;
   }
 
   .sectionbody,
@@ -687,10 +720,6 @@ form button {
   }
 
   .multi-post {
-    display: none;
-  }
-
-  .close-icon {
     display: none;
   }
 

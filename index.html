@@ -23,9 +23,9 @@
       function gtag() {
         dataLayer.push(arguments);
       }
-      gtag("js", new Date());
+      gtag('js', new Date());
 
-      gtag("config", "G-2WGKL88QVZ");
+      gtag('config', 'G-2WGKL88QVZ');
     </script>
 
     <title>_John Doe Portfolio</title>
@@ -201,8 +201,6 @@
               placeholder="Full name"
               maxlength="30"
               required
-              min="5"
-              max="20"
             />
 
             <input
@@ -220,7 +218,6 @@
               rows="10"
               maxlength="500"
               placeholder="Enter text here"
-              max="200"
             ></textarea>
             <button type="submit" id="submit">Get in touch</button>
           </form>
@@ -260,25 +257,35 @@
                 <li><button>Ruby on rails</button></li>
               </ul>
             </div>
-
-            <img src="./images/secondpage/snapshot.svg" alt="snapshot img" />
-            <p class="simply">
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book. It has
-              survived not only five centuries, but also the leap into
-              electronic typesetting, remaining essent
-            </p>
-            <div class="bottom-btn">
-              <a href="#" id="live">
-                See Live
-                <img src="./images/secondpage/power.svg" alt="live link" />
-              </a>
-              <a href="#" id="githublink">
-                See Source
-                <img src="./images/secondpage/github.svg" alt="github link" />
-              </a>
+            <div class="desktop-pop">
+              <img
+                src="./images/secondpage/snapshot.svg"
+                alt="snapshot img"
+                id="snapshot"
+              />
+              <div class="flex-desktop">
+                <p class="simply">
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry. Lorem Ipsum has been the industry's
+                  standard dummy text ever since the 1500s, when an unknown
+                  printer took a galley of type and scrambled it to make a type
+                  specimen book. It has survived not only five centuries, but
+                  also the leap into electronic typesetting, remaining essent
+                </p>
+                <div class="bottom-btn">
+                  <a href="#" id="live">
+                    See Live
+                    <img src="./images/secondpage/power.svg" alt="live link" />
+                  </a>
+                  <a href="#" id="githublink">
+                    See Source
+                    <img
+                      src="./images/secondpage/github.svg"
+                      alt="github link"
+                    />
+                  </a>
+                </div>
+              </div>
             </div>
           </div>
         </section>

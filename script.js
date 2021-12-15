@@ -1,125 +1,137 @@
-document.querySelector(".union").addEventListener("click", () => {
-  document.querySelector(".hamburger").style.display = "flex";
+document.querySelector('.union').addEventListener('click', () => {
+  document.querySelector('.hamburger').style.display = 'flex';
 });
 
-document.querySelector("#xicon").addEventListener("click", () => {
-  document.querySelector(".hamburger").style.display = "none";
+document.querySelector('#xicon').addEventListener('click', () => {
+  document.querySelector('.hamburger').style.display = 'none';
 });
 
-document.querySelectorAll(".hamburger a").forEach((e) => {
-  e.addEventListener("click", () => {
-    document.querySelector(".hamburger").style.display = "none";
+document.querySelectorAll('.hamburger a').forEach((e) => {
+  e.addEventListener('click', () => {
+    document.querySelector('.hamburger').style.display = 'none';
   });
 });
 
 window.onresize = () => {
   if (window.innerWidth > 992) {
-    document.querySelector(".hamburger").style.display = "none";
+    document.querySelector('.hamburger').style.display = 'none';
   }
 };
 
 const seeProject = [
   {
-    id: "1",
-    title: "Profesional Art Printing Data",
+    id: '1',
+    title: 'Profesional Art Printing Data',
     description:
-      "  A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
-    technologies: ["html", "Bootstrap", "Ruby on rails"],
-    image: "./images/secondpage/Icon.svg",
-    live: "#",
-    github: "#",
+      '  A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industrys standard',
+    technologies: ['html', 'Bootstrap', 'Ruby on rails'],
+    image: './images/secondpage/Icon.svg',
+    live: '#',
+    github: '#',
+    statement:
+      'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.',
   },
   {
-    id: "2",
-    title: "Profesional Art Printing Data",
+    id: '2',
+    title: 'Profesional Art Printing Data',
     description:
-      "  A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
-    technologies: ["html", "Bootstrap", "Ruby on rails"],
-    image: "./images/secondpage/Icon.svg",
-    live: "#",
-    github: "#",
+      '  A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industrys standard',
+    technologies: ['html', 'Bootstrap', 'Ruby on rails'],
+    image: './images/secondpage/Icon.svg',
+    live: '#',
+    github: '#',
+    statement:
+      'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.',
   },
   {
-    id: "3",
-    title: "Profesional Art Printing Data",
+    id: '3',
+    title: 'Profesional Art Printing Data',
     description:
-      "  A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
-    technologies: ["html", "Bootstrap", "Ruby on rails"],
-    image: "./images/secondpage/Icon.svg",
-    live: "#",
-    github: "#",
+      '  A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industrys standard',
+    technologies: ['html', 'Bootstrap', 'Ruby on rails'],
+    image: './images/secondpage/Icon.svg',
+    live: '#',
+    github: '#',
+    statement:
+      'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.',
   },
   {
-    id: "4",
-    title: "Profesional Art Printing Data",
+    id: '4',
+    title: 'Profesional Art Printing Data',
     description:
-      "  A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
-    technologies: ["html", "Bootstrap", "Ruby on rails"],
-    image: "./images/secondpage/Icon.svg",
-    live: "#",
-    github: "#",
+      '  A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industrys standard',
+    technologies: ['html', 'Bootstrap', 'Ruby on rails'],
+    image: './images/secondpage/Icon.svg',
+    live: '#',
+    github: '#',
+    statement:
+      'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.',
   },
   {
-    id: "5",
-    title: "Profesional Art Printing Data",
+    id: '5',
+    title: 'Profesional Art Printing Data',
     description:
-      "  A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
-    technologies: ["html", "Bootstrap", "Ruby on rails"],
-    image: "./images/secondpage/Icon.svg",
-    live: "#",
-    github: "#",
+      '  A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industrys standard',
+    technologies: ['html', 'Bootstrap', 'Ruby on rails'],
+    image: './images/secondpage/Icon.svg',
+    live: '#',
+    github: '#',
+    statement:
+      'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.',
   },
   {
-    id: "6",
-    title: "Profesional Art Printing Data",
+    id: '6',
+    title: 'Profesional Art Printing Data',
     description:
-      "  A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
-    technologies: ["html", "Bootstrap", "Ruby on rails"],
-    image: "./images/secondpage/Icon.svg",
-    live: "#",
-    github: "#",
+      '  A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industrys standard',
+    technologies: ['html', 'Bootstrap', 'Ruby on rails'],
+    image: './images/secondpage/Icon.svg',
+    live: '#',
+    github: '#',
+    statement:
+      'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.',
   },
 ];
 
 for (let i = 0; i < seeProject.length; i++) {
-  document.querySelector("#worksection").innerHTML += `
-<div class="last-part">
-<h3 class="professional">${seeProject[i].title}</h3>
-<p class="selection">
+  document.querySelector('#worksection').innerHTML += `
+<div class='last-part'>
+<h3 class='professional'>${seeProject[i].title}</h3>
+<p class='selection'>
   ${seeProject[i].description}
 </p>
-<ul class="groupbtn">
+<ul class='groupbtn'>
   
  ${seeProject[i].technologies
-   .map((x) => `<li><button class="probtn" type="submit">${x}</button></li>`)
-   .join("")} 
+   .map((x) => `<li><button class='probtn' type='submit'>${x}</button></li>`)
+   .join('')} 
 </ul>
-<button class="lgbtn" id="project-${seeProject[i].id}">See Project</button>
+<button class='lgbtn' id='project-${seeProject[i].id}'>See Project</button>
 </div>
 `;
 }
 
 // popup
-document.querySelectorAll(".lgbtn").forEach((x) => {
-  x.addEventListener("click", () => {
-    const id = x.id.split("-")[1];
+document.querySelectorAll('.lgbtn').forEach((x) => {
+  x.addEventListener('click', () => {
+    const id = x.id.split('-')[1];
     const curProject = seeProject.find((p) => p.id === id);
-    document.querySelector(".pop-up h1").innerText = curProject.title;
-    document.querySelector(".pop-up img").setAttribute("src", curProject.image);
-    document.querySelector(".top-buttons").innerHTML = curProject.technologies
-      .map((x) => `<li><button class="topbtns">${x}</button></li>`)
-      .join("");
-    document.querySelector(".pop-up p").innerText = curProject.description;
-    document.querySelector("#live").setAttribute("href", curProject.live);
+    document.querySelector('.pop-up h1').innerText = curProject.title;
+    document.querySelector('.pop-up img').setAttribute('src', curProject.image);
+    document.querySelector('.top-buttons').innerHTML = curProject.technologies
+      .map((x) => `<li><button class='topbtns'>${x}</button></li>`)
+      .join('');
+    document.querySelector('.pop-up p').innerText = curProject.statement;
+    document.querySelector('#live').setAttribute('href', curProject.live);
     document
-      .querySelector("#githublink")
-      .setAttribute("href", curProject.github);
+      .querySelector('#githublink')
+      .setAttribute('href', curProject.github);
 
     // show popup
-    document.querySelector(".backdrop").style.display = "block";
+    document.querySelector('.backdrop').style.display = 'block';
   });
 });
 // hide the popup on x click
-document.querySelector(".close-icon").addEventListener("click", () => {
-  document.querySelector(".backdrop").style.display = "none";
+document.querySelector('.close-icon').addEventListener('click', () => {
+  document.querySelector('.backdrop').style.display = 'none';
 });
