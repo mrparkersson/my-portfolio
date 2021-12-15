@@ -93,6 +93,10 @@ const seeProject = [
   },
 ];
 
+const list = (v) => {
+  return v.map((x) => `<li><button class='probtn'>${x}</button></li>`).join('');
+};
+
 for (let i = 0; i < seeProject.length; i += 1) {
   document.querySelector('#worksection').innerHTML += `
   <div class='last-part'>
@@ -100,11 +104,7 @@ for (let i = 0; i < seeProject.length; i += 1) {
     <p class='selection'>
       ${seeProject[i].description}
     </p>
-    <ul class='groupbtn'>
-    ${seeProject[i].technologies
-      .map((x) => `<li><button class='probtn' type='submit'>${x}</button></li>`)
-      .join('')} 
-    </ul>
+    <ul class='groupbtn'>${list(seeProject[i].technologies)}</ul>
     <button class='lgbtn' id='project-${seeProject[i].id}'>See Project</button>
   </div>`;
 }
