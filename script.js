@@ -93,9 +93,9 @@ const seeProject = [
   },
 ];
 
-for (let i = 0; i < seeProject.length; i++) {
+for (let i = 0; i < seeProject.length; i += 1) {
   document.querySelector('#worksection').innerHTML += `
-<div class='last-part'>
+  <div class='last-part'>
 <h3 class='professional'>${seeProject[i].title}</h3>
 <p class='selection'>
   ${seeProject[i].description}
@@ -131,6 +131,7 @@ document.querySelectorAll('.lgbtn').forEach((x) => {
     document.querySelector('.backdrop').style.display = 'block';
   });
 });
+
 // hide the popup on x click
 document.querySelector('.close-icon').addEventListener('click', () => {
   document.querySelector('.backdrop').style.display = 'none';
