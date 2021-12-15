@@ -432,6 +432,73 @@ form button {
   background-color: #ce9368;
 }
 
+.multi-post {
+  color: #172b4d;
+  font-weight: 700;
+  font-style: normal;
+  font-family: "Roboto", sans-serif;
+  font-size: 32px;
+  line-height: 44px;
+}
+
+.keeping-track {
+  display: none;
+}
+
+.top-items {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+}
+
+.top-buttons ul {
+  display: flex;
+  gap: 10px;
+  padding: 10px;
+}
+
+.top-buttons ul li button {
+  border: 1px solid gray;
+  background-color: white;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-size: 13px;
+  line-height: 16px;
+}
+
+.simply {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.bottom-items {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.bottom-btn {
+  display: flex;
+  gap: 19px;
+  width: 100%;
+}
+
+.bottom-btn button {
+  background-color: #ff6b00;
+  border: none;
+  color: white;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 24px;
+  gap: 5px;
+  height: 48px;
+}
+
 @media (min-width: 992px) {
   .d-grid {
     grid-template-columns: 1fr 1fr 1fr;
@@ -587,5 +654,17 @@ form button {
     left: 0;
     gap: 10px;
     top: 30%;
+  }
+
+  .multi-post {
+    display: none;
+  }
+
+  .close-icon {
+    display: none;
+  }
+
+  .keeping-track {
+    display: flex;
   }
 }

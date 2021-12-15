@@ -35,7 +35,7 @@
     <!-- WORK SECTION -->
     <header>
       <div>
-        <h3 id="jon">Jon Doe</h3>
+        <h3 id="jon">Prince Parker</h3>
         <ul>
           <li><a href="#"> Portfolio</a></li>
           <li><a href="#about" id="aboutlink">About</a></li>
@@ -286,6 +286,8 @@
               placeholder="Full name"
               maxlength="30"
               required
+              min="5"
+              max="20"
             />
 
             <input
@@ -303,8 +305,9 @@
               rows="10"
               maxlength="500"
               placeholder="Enter text here"
+              max="200"
             ></textarea>
-            <button type="submit">Get in touch</button>
+            <button type="submit" id="submit">Get in touch</button>
           </form>
         </div>
         <ul>
@@ -319,6 +322,52 @@
           <li><img src="./images/secondpage/bigm.svg" alt="medium link" /></li>
         </ul>
       </section>
+
+      <!-- POP UP WINDOW -->
+      <div class="backdrop">
+        <section class="pop-up">
+          <div class="top-items">
+            <h1 class="multi-post">Multi Post Stories</h1>
+            <h2 class="keeping-track">
+              Keeping track of hundreds of components website
+            </h2>
+            <img
+              src="./images/secondpage/Icon.svg"
+              alt="close icon"
+              class="close-icon"
+            />
+          </div>
+          <div class="bottom-items">
+            <div class="top-buttons">
+              <ul>
+                <li><button>html</button></li>
+                <li><button>Bootstrap</button></li>
+                <li><button>Ruby on rails</button></li>
+              </ul>
+            </div>
+
+            <img src="./images/secondpage/snapshot.svg" alt="" />
+            <p class="simply">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s, when an unknown printer took a galley of
+              type and scrambled it to make a type specimen book. It has
+              survived not only five centuries, but also the leap into
+              electronic typesetting, remaining essent
+            </p>
+            <div class="bottom-btn">
+              <button>
+                See Live
+                <img src="./images/secondpage/power.svg" alt="live link" />
+              </button>
+              <button>
+                See Source
+                <img src="./images/secondpage/github.svg" alt="github link" />
+              </button>
+            </div>
+          </div>
+        </section>
+      </div>
     </footer>
   </body>
 </html>
