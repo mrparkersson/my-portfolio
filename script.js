@@ -147,8 +147,8 @@ function validateEmail() {
   const span = document.getElementById('emailText');
 
   email.onkeydown = () => {
-    const regex = /^([\.\_a-zA-Z0-9]+)@([a-zA-Z]+)([a-zA-Z]){2,8}$/;
-    const regex2 = /^([\.\_a-zA-Z0-9]+)@([a-zA-Z]+)([a-zA-Z]){2,3}\.[a-zA-Z]{1,3}$/;
+    const regex = /^([a-zA-Z0-9]+)@([a-zA-Z]+)([a-zA-Z]){2,8}$/;
+    const regex2 = /^([a-zA-Z0-9]+)@([a-zA-Z]+)([a-zA-Z]){2,3}[a-zA-Z]{1,3}$/;
     if (regex.test(email.value) || regex2.test(email.value)) {
       span.innerText = 'Your email is valid';
       span.style.color = 'lime';
