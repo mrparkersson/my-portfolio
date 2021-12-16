@@ -138,3 +138,28 @@ document.querySelector('.close-icon').addEventListener('click', () => {
 document.querySelector('#seeprobtn').addEventListener('click', () => {
   document.querySelector('.backdrop').style.display = 'grid';
 });
+
+// validate email
+
+function validateEmail() {
+  let email = document.getElementById('email');
+  console.log(email);
+  let span = document.getElementById('emailText');
+
+  email.onkeydown = () => {
+    const regex = /^([\.\_a-zA-Z0-9]+)@([a-zA-Z]+)\.([a-zA-Z]){2,8}$/;
+    const regex2 =
+      /^([\.\_a-zA-Z0-9]+)@([a-zA-Z]+)\.([a-zA-Z]){2,3}\.[a-zA-Z]{1,3}$/;
+    if (regex.test(email.value) || regex2.test(email.value)) {
+      span.innerText = 'Your email is valid';
+      span.style.color = 'lime';
+    } else {
+      span.innerText = 'Your email is not valid';
+      span.style.color = 'red';
+    }
+  };
+}
+
+document.querySelector('form').addEventListener('click', () => {
+  validateEmail();
+});
