@@ -141,16 +141,14 @@ document.querySelector('#seeprobtn').addEventListener('click', () => {
 
 // validate email
 
-
-
 document.querySelector('form').addEventListener('submit', (e) => {
   e.preventDefault();
   const email = document.getElementById('email');
-  if(email.value.toLowerCase() !== email.value){
+  if (email.value.toLowerCase() !== email.value) {
     const span = document.getElementById('emailText');
     span.innerText = 'Your email is not valid, change to lower case';
-      span.style.color = 'red';
-      return false;
+    span.style.color = 'red';
+    return false;
   }
   document.querySelector('form').submit();
   return true;
