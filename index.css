@@ -563,6 +563,10 @@ button:hover {
     width: 100%;
   }
 
+  form button {
+    margin-bottom: 154px;
+  }
+
   .top-buttons ul li button {
     display: flex;
     gap: 10px;
@@ -678,10 +682,6 @@ button:hover {
 
   header div ul li a:hover {
     border-bottom: 2px solid green;
-  }
-
-  form button {
-    margin-bottom: 154px;
   }
 
   .interested {
