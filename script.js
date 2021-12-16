@@ -140,8 +140,9 @@ document.querySelector('#seeprobtn').addEventListener('click', () => {
 });
 
 // validate email
+const form = document.querySelector('form');
 
-document.querySelector('form').addEventListener('submit', (e) => {
+form.addEventListener('submit', (e) => {
   e.preventDefault();
   const email = document.getElementById('email');
   if (email.value.toLowerCase() !== email.value) {
@@ -150,6 +151,36 @@ document.querySelector('form').addEventListener('submit', (e) => {
     span.style.color = 'red';
     return false;
   }
-  document.querySelector('form').submit();
+  form.submit();
   return true;
 });
+
+// locastorage
+
+const { username, useremail, textarea } = form.elements;
+
+form.addEventListener('change', () => {
+  const userDetails = {};
+
+  if (username.value.trim() !== '') {
+    userDetails.userName = username.value.trim();
+  }
+
+  if (useremail.value.trim() !== '') {
+    userDetails.userEmail = useremail.value.trim();
+  }
+
+  if (textarea.value.trim() !== '') {
+    userDetails.message = textarea.value.trim();
+  }
+
+  localStorage.setItem('formInput', JSON.stringify(userDetails));
+});
+
+const { userName, userEmail, message } = JSON.parse(
+  localStorage.getItem('formInput')
+);
+
+useremail.value = userEmail || '';
+username.value = userName || '';
+textarea.value = message || '';
