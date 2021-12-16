@@ -141,23 +141,17 @@ document.querySelector('#seeprobtn').addEventListener('click', () => {
 
 // validate email
 
-function validateEmail() {
+
+
+document.querySelector('form').addEventListener('submit', (e) => {
+  e.preventDefault();
   const email = document.getElementById('email');
-  const span = document.getElementById('emailText');
-
-  email.onkeydown = () => {
-    const regex = /^([a-zA-Z0-9]+)@([a-zA-Z]+)([a-zA-Z]){2,8}$/;
-    const regex2 = /^([a-zA-Z0-9]+)@([a-zA-Z]+)([a-zA-Z]){2,3}[a-zA-Z]{1,3}$/;
-    if (regex.test(email.value) || regex2.test(email.value)) {
-      span.innerText = 'Your email is valid';
-      span.style.color = 'lime';
-    } else {
-      span.innerText = 'Your email is not valid';
+  if(email.value.toLowerCase() !== email.value){
+    const span = document.getElementById('emailText');
+    span.innerText = 'Your email is not valid, change to lower case';
       span.style.color = 'red';
-    }
-  };
-}
-
-document.querySelector('form').addEventListener('click', () => {
-  validateEmail();
+      return false;
+  }
+  document.querySelector('form').submit();
+  return true;
 });
