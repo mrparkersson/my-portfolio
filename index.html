@@ -23,33 +23,99 @@
       function gtag() {
         dataLayer.push(arguments);
       }
-      gtag("js", new Date());
+      gtag('js', new Date());
 
-      gtag("config", "G-2WGKL88QVZ");
+      gtag('config', 'G-2WGKL88QVZ');
     </script>
 
-    <title>Work and About section</title>
+    <title>_John Doe Portfolio</title>
+    <script src="./script.js" defer></script>
   </head>
   <body>
     <!-- WORK SECTION -->
     <header>
       <div>
-        <h3>Jon Doe</h3>
+        <h3 id="jon">Prince Parker</h3>
         <ul>
           <li><a href="#"> Portfolio</a></li>
-          <li><a href="#">About</a></li>
+          <li><a href="#about" id="aboutlink">About</a></li>
           <li><a href="#">Contact</a></li>
         </ul>
+        <img
+          src="./images/secondpage/Union.svg"
+          alt="union img"
+          class="union"
+        />
       </div>
     </header>
-    <div class="recent-line d-grid">
+
+    <div class="hamburger">
+      <div class="menu-container">
+        <img src="./images/secondpage/Icon.svg" alt="xicon image" id="xicon" />
+
+        <ul>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#about">About </a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <!-- FIRST PAGE  -->
+    <section class="sectionbody d-flex">
+      <div class="h1fam">
+        <h1>Hey There. <br />I'm Parker</h1>
+      </div>
+
+      <h2 class="margintext">I’am a Software Developer</h2>
+      <p class="build">
+        I can help you build a product , feature or website Look through some of
+        my work and experience! If you like what you see and have a project you
+        need coded, don’t hestiate to contact me.
+      </p>
+
+      <ul>
+        <li>
+          <a href="#"
+            ><img src="./images/secondpage/github.svg" alt="github link"
+          /></a>
+        </li>
+        <li>
+          <a href="#"
+            ><img src="./images/secondpage/linkedin.svg" alt="linkedin link"
+          /></a>
+        </li>
+        <li>
+          <a href="#"
+            ><img src="./images/secondpage/hands.svg" alt="angelist link"
+          /></a>
+        </li>
+        <li>
+          <a href="#"
+            ><img src="./images/secondpage/twitter.svg" alt="twitter link"
+          /></a>
+        </li>
+        <li>
+          <a href="#"
+            ><img src="./images/secondpage/bigm.svg" alt="medium link"
+          /></a>
+        </li>
+      </ul>
+    </section>
+
+    <!-- RECENT WORKS -->
+
+    <div class="recent-line d-grid" id="portfolio">
       <h2 class="recent margin">My Recent Works</h2>
       <div class="line margin"></div>
     </div>
     <section class="acrosection">
-      <img class="acrobat" src="./images/secondpage/acrobat2.svg" alt="" />
+      <img
+        class="acrobat"
+        src="./images/secondpage/acrobat2.svg"
+        alt="Multi-Post Stories website screenshot"
+      />
       <div class="multidaily">
-        <h2 class="multi">Multi-Post Stories</h2>
+        <h3 class="multi">Multi-Post Stories</h3>
         <p class="daily multi">
           A daily selection of privately personalized reads; no accounts or
           sign-ups required. has been the industry's standard dummy text ever
@@ -63,99 +129,16 @@
           <li><button class="btn" type="submit">Ruby</button></li>
         </ul>
 
-        <button class="see-project multi" type="submit">See Project</button>
+        <button class="see-project multi" type="submit" id="seeprobtn">
+          See Project
+        </button>
       </div>
     </section>
-    <section class="container d-grid">
-      <!-- 1 -->
-      <div class="last-part">
-        <h2 class="professional">Profesional Art Printing Data</h2>
-        <p class="selection">
-          A daily selection of privately personalized reads; no accounts or
-          sign-ups required. has been the industry's standard
-        </p>
-        <ul class="groupbtn">
-          <li><button class="probtn" type="submit">html</button></li>
-          <li><button class="probtn" type="submit">bootstrap</button></li>
-          <li><button class="probtn" type="submit">Ruby</button></li>
-        </ul>
-        <button class="lgbtn" type="submit">See Project</button>
-      </div>
-      <!-- 2 -->
-      <div class="last-part">
-        <h2 class="professional">Profesional Art Printing Data</h2>
-        <p class="selection">
-          A daily selection of privately personalized reads; no accounts or
-          sign-ups required. has been the industry's standard
-        </p>
-        <ul class="groupbtn">
-          <li><button class="probtn" type="submit">html</button></li>
-          <li><button class="probtn" type="submit">bootstrap</button></li>
-          <li><button class="probtn" type="submit">Ruby</button></li>
-        </ul>
-        <button class="lgbtn" type="submit">See Project</button>
-      </div>
-      <!-- 3 -->
-      <div class="last-part">
-        <h2 class="professional">Profesional Art Printing Data</h2>
-        <p class="selection">
-          A daily selection of privately personalized reads; no accounts or
-          sign-ups required. has been the industry's standard
-        </p>
-        <ul class="groupbtn">
-          <li><button class="probtn" type="submit">html</button></li>
-          <li><button class="probtn" type="submit">bootstrap</button></li>
-          <li><button class="probtn" type="submit">Ruby</button></li>
-        </ul>
-        <button class="lgbtn" type="submit">See Project</button>
-      </div>
-      <!-- 4 -->
-      <div class="last-part">
-        <h2 class="professional">Profesional Art Printing Data</h2>
-        <p class="selection">
-          A daily selection of privately personalized reads; no accounts or
-          sign-ups required. has been the industry's standard
-        </p>
-        <ul class="groupbtn">
-          <li><button class="probtn" type="submit">html</button></li>
-          <li><button class="probtn" type="submit">bootstrap</button></li>
-          <li><button class="probtn" type="submit">Ruby</button></li>
-        </ul>
-        <button class="lgbtn" type="submit">See Project</button>
-      </div>
-      <!-- 5 -->
-      <div class="last-part">
-        <h2 class="professional">Profesional Art Printing Data</h2>
-        <p class="selection">
-          A daily selection of privately personalized reads; no accounts or
-          sign-ups required. has been the industry's standard
-        </p>
-        <ul class="groupbtn">
-          <li><button class="probtn" type="submit">html</button></li>
-          <li><button class="probtn" type="submit">bootstrap</button></li>
-          <li><button class="probtn" type="submit">Ruby</button></li>
-        </ul>
-        <button class="lgbtn" type="submit">See Project</button>
-      </div>
-      <!-- 6 -->
-      <div class="last-part">
-        <h2 class="professional">Profesional Art Printing Data</h2>
-        <p class="selection">
-          A daily selection of privately personalized reads; no accounts or
-          sign-ups required. has been the industry's standard
-        </p>
-        <ul class="groupbtn">
-          <li><button class="probtn" type="submit">html</button></li>
-          <li><button class="probtn" type="submit">bootstrap</button></li>
-          <li><button class="probtn" type="submit">Ruby</button></li>
-        </ul>
-        <button class="lgbtn" type="submit">See Project</button>
-      </div>
-    </section>
+    <section class="container d-grid" id="worksection"></section>
 
     <!-- ABOUT SECTION -->
 
-    <section class="aboutme">
+    <section class="aboutme" id="about">
       <div class="info">
         <div class="info-content">
           <h2 class="about">About Me</h2>
@@ -206,7 +189,7 @@
 
     <!-- CONTACT FORM -->
     <footer>
-      <section class="contact-form">
+      <section class="contact-form" id="contact">
         <div class="form">
           <h3 class="interested">
             I'm always interested in hearing about new projects, so if you'd
@@ -214,36 +197,103 @@
           </h3>
           <form action="https://formspree.io/f/mqknzynw" method="post">
             <input
+              id="username"
               type="text"
               name="name"
               placeholder="Full name"
               maxlength="30"
               required
             />
+
             <input
+              id="useremail"
               type="email"
               name="email"
               placeholder="Email address"
               required
             />
+
+            <span id="emailText"></span>
+            <label for="textarea"></label>
             <textarea
+              id="textarea"
               name="message"
               cols="30"
               rows="10"
               maxlength="500"
               placeholder="Enter text here"
             ></textarea>
-            <button type="submit">Get in touch</button>
+            <button type="submit" id="submit">Get in touch</button>
           </form>
         </div>
         <ul>
-          <li><img src="./images/secondpage/toy2.svg" alt="imgages" /></li>
-          <li><img src="./images/secondpage/linkedin.svg" alt="images" /></li>
-          <li><img src="./images/secondpage/hands.svg" alt="images" /></li>
-          <li><img src="./images/secondpage/bird.svg" alt="images" /></li>
-          <li><img src="./images/secondpage/bigm.svg" alt="images" /></li>
+          <li><img src="./images/secondpage/toy2.svg" alt="github link" /></li>
+          <li>
+            <img src="./images/secondpage/linkedin.svg" alt="linkedin link" />
+          </li>
+          <li>
+            <img src="./images/secondpage/hands.svg" alt="angelist link" />
+          </li>
+          <li><img src="./images/secondpage/bird.svg" alt="twitter link" /></li>
+          <li><img src="./images/secondpage/bigm.svg" alt="medium link" /></li>
         </ul>
       </section>
+
+      <!-- POP UP WINDOW -->
+      <div class="backdrop">
+        <section class="pop-up">
+          <div class="top-items">
+            <h1 class="multi-post">Multi Post Stories</h1>
+            <h2 class="keeping-track">
+              Keeping track of hundreds of components website
+            </h2>
+            <img
+              src="./images/secondpage/Icon.svg"
+              alt="close icon"
+              class="close-icon"
+            />
+          </div>
+          <div class="bottom-items">
+            <div class="top-buttons">
+              <ul>
+                <li><button>html</button></li>
+                <li><button>Bootstrap</button></li>
+                <li><button>Ruby on rails</button></li>
+              </ul>
+            </div>
+            <div class="desktop-pop">
+              <img
+                src="./images/secondpage/snapshot.svg"
+                alt="snapshot img"
+                id="snapshot"
+              />
+              <div class="flex-desktop">
+                <p class="simply">
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry. Lorem Ipsum has been the industry's
+                  standard dummy text ever since the 1500s, when an unknown
+                  printer took a galley of type and scrambled it to make a type
+                  specimen book. It has survived not only five centuries, but
+                  also the leap into electronic typesetting, remaining essent
+                </p>
+                <div class="bottom-btn">
+                  <a href="#" id="live">
+                    See Live
+                    <img src="./images/secondpage/power.svg" alt="live link" />
+                  </a>
+                  <a href="#" id="githublink">
+                    See Source
+                    <img
+                      src="./images/secondpage/github.svg"
+                      alt="github link"
+                    />
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
     </footer>
   </body>
 </html>
