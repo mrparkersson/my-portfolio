@@ -177,9 +177,7 @@ form.addEventListener('change', () => {
   localStorage.setItem('formInput', JSON.stringify(userDetails));
 });
 
-const { userName, userEmail, message } = JSON.parse(
-  localStorage.getItem('formInput')
-);
+const { userName, userEmail, message } = JSON.parse(localStorage.getItem('formInput'));
 
 useremail.value = userEmail || '';
 username.value = userName || '';
