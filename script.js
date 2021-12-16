@@ -143,7 +143,6 @@ document.querySelector('#seeprobtn').addEventListener('click', () => {
 
 function validateEmail() {
   const email = document.getElementById('email');
-  
   const span = document.getElementById('emailText');
 
   email.onkeydown = () => {
