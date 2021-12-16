@@ -529,6 +529,10 @@ form button {
   overflow: auto;
 }
 
+button:hover {
+  cursor: pointer;
+}
+
 @media (min-width: 992px) {
   .d-grid {
     grid-template-columns: 1fr 1fr 1fr;
